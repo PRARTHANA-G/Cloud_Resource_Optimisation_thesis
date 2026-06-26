@@ -191,7 +191,7 @@ pip install pyarrow  # for parquet support
 
 ## Citation
 
-If you use this work or the column swap correction finding, please cite:
+If you use this work , please cite:
 
 ```
 Govindaraj, P. and Kumari, P. (2026) Optimizing Cloud Resource Allocation:
