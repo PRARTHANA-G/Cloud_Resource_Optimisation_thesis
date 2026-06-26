@@ -54,11 +54,16 @@ Cloud_Resource_Optimisation_thesis/
 │       └── ...
 │
 ├── notebooks/
+│   ├── data_mapping.ipynb  #Raw data anlysis
+│   ├── 01_data_exploration.ipynb #Raw data analysis
+│   ├── batch_instance_cpu_max_vs_avg.ipynb  #Column check
 │   ├── EDAV2.ipynb                   # Exploratory analysis, column swap correction, Stage 1 EDA
 │   ├── stage1b_provisioning_analysis.ipynb  # Stage 1 full pipeline
+│   ├── stage1_underprovisioning_V2_analysis.ipynb  #Underprovisioning analysis
+│   ├── stage1_EDA_V3_uniform join key.ipyn  #join key analysis
 │   ├── lstm_v3.ipynb                 # Stage 2 — LSTM forecasting
 │   ├── chronos.ipynb                 # Stage 3 — Chronos zero-shot evaluation
-│   ├── nixtla_analysis.ipynb         # Stage 3 — Nixtla statistical baseline
+│   ├── nixtla_time_series_analysis.ipynb      # Stage 3 — Nixtla statistical baseline
 │   └── risk_analysis.ipynb           # Behavioural analysis — risk premiums
 │
 ├── results/                          # Model outputs and metrics
